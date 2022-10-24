@@ -1,0 +1,91 @@
+.card {
+  width: 90vw;
+  max-width: 400px;
+  background-color: hsl(205, 39%, 77%);
+  border-radius: 0.25rem;
+  padding: 2rem 2.5rem;
+  display: grid;
+  row-gap: 1rem;
+  margin-top: -10rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-day {
+  font-weight: 600;
+  font-size: 1.15rem;
+  text-transform: capitalize;
+}
+
+.card-time {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-body {
+  display: grid;
+  padding-top: 1rem;
+}
+
+.card-city {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 0 1.5rem;
+}
+
+.red {
+  color: hsl(0, 100%, 50%);
+}
+
+.green {
+  color: hsl(120, 100%, 25%);
+}
+
+.card-temperature {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.card-form {
+  display: grid;
+}
+
+.card-input {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid hsl(0, 0%, 50%);
+  margin-bottom: 0.5rem;
+}
+
+.card-input::placeholder {
+  font-size: 0.85em;
+}
+
+.card-btn {
+  display: inline-block;
+  background-color: hsl(240, 11%, 7%);
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  border-radius: 1.5rem;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-btn:hover {
+  background-color: hsl(240, 2%, 26%);
+}
